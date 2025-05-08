@@ -1,0 +1,61 @@
+generate git ignore file
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.sca_cache.json
+.scan_cache.db
+
+# Pytest
+.pytest_cache/
+
+# Pytest
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Cache
+.cache/
+
+# Local configuration
+config.local.ini
+*.local.yml
+*.local.yaml
+
+# API keys and secrets
+.env
+.env.local
+
+# HTML reports
+*report.html
+
+# Output files
+results.json
+output/

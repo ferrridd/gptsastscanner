@@ -1,0 +1,66 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:2a022616-d870-49b5-87b7-e4a63fa86f5e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-05-07T00:13:47.065715",
+    "tools": [
+      {
+        "vendor": "GPT-SAST",
+        "name": "SCA-Analyzer",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "org.springframework.boot:spring-boot-starter",
+      "version": "undefined",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@undefined"
+    },
+    {
+      "type": "library",
+      "name": "org.springframework.boot:spring-boot-starter-web",
+      "version": "undefined",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web@undefined"
+    },
+    {
+      "type": "library",
+      "name": "org.postgresql:postgresql",
+      "version": "42.2.5",
+      "purl": "pkg:maven/org.postgresql/postgresql@42.2.5"
+    },
+    {
+      "type": "library",
+      "name": "org.jsoup:jsoup",
+      "version": "1.8.3",
+      "purl": "pkg:maven/org.jsoup/jsoup@1.8.3"
+    },
+    {
+      "type": "library",
+      "name": "org.springframework.boot:spring-boot-starter-test",
+      "version": "undefined",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test@undefined"
+    },
+    {
+      "type": "library",
+      "name": "io.jsonwebtoken:jjwt-api",
+      "version": "0.10.5",
+      "purl": "pkg:maven/io.jsonwebtoken/jjwt-api@0.10.5"
+    },
+    {
+      "type": "library",
+      "name": "io.jsonwebtoken:jjwt-impl",
+      "version": "0.10.5",
+      "purl": "pkg:maven/io.jsonwebtoken/jjwt-impl@0.10.5"
+    },
+    {
+      "type": "library",
+      "name": "io.jsonwebtoken:jjwt-jackson",
+      "version": "0.10.5",
+      "purl": "pkg:maven/io.jsonwebtoken/jjwt-jackson@0.10.5"
+    }
+  ]
+}
